@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samir Marin — Infrastructure Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script async src="https://subscribe-forms.beehiiv.com/embed.js"></script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="nav__inner container">
+      <a href="#" class="nav__logo">Samir Marin</a>
+      <button class="nav__burger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#subscribe">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__text fade-in">
+        <p class="hero__eyebrow">Hello, I'm</p>
+        <h1 class="hero__name">Samir Marin</h1>
+        <p class="hero__title">Infrastructure Engineer</p>
+        <p class="hero__summary">
+          Experienced engineer skilled at developing automation tools and backend services,
+          with expertise in AWS architecture, infrastructure as code, and system administration.
+        </p>
+        <div class="hero__ctas">
+          <a href="ResumeSamirMarinEstrada.pdf" target="_blank" class="btn btn--primary">View Resume</a>
+          <a href="#subscribe" class="btn btn--secondary">Stay in Touch</a>
+        </div>
+      </div>
+      <div class="hero__badge fade-in fade-in--delay">
+        <div class="badge">
+          <span class="badge__initials">SM</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section__title fade-in">About Me</h2>
+      <div class="about__grid fade-in">
+        <div class="about__bio">
+          <p>
+            I'm an Infrastructure Engineer currently at <strong>1047 Games</strong>, where I build and
+            maintain the systems that keep game infrastructure running at scale. I've spent my career
+            working across cloud platforms, Kubernetes ecosystems, and developer tooling — always with
+            a focus on reliability, automation, and making engineers' lives easier.
+          </p>
+          <p>
+            Before infrastructure, I studied both Civil Engineering and Computer Science, which gave me
+            an appreciation for building things that hold up under pressure — whether that's a bridge or
+            a production Kubernetes cluster.
+          </p>
+        </div>
+        <div class="about__contact">
+          <div class="contact-card">
+            <div class="contact-item">
+              <span class="contact-item__icon">📍</span>
+              <span>Vancouver, BC</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-item__icon">✉️</span>
+              <a href="mailto:marin.samir@gmail.com">marin.samir@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-item__icon">📄</span>
+              <a href="ResumeSamirMarinEstrada.pdf" target="_blank">Download Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <h2 class="section__title fade-in">Technical Skills</h2>
+      <div class="skills__grid fade-in">
+        <div class="skill-category">
+          <h3 class="skill-category__title">Orchestration & Service Mesh</h3>
+          <div class="skill-tags">
+            <span class="tag">Kubernetes</span>
+            <span class="tag">Istio</span>
+            <span class="tag">Helm</span>
+            <span class="tag">ArgoCD</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category__title">Infrastructure as Code</h3>
+          <div class="skill-tags">
+            <span class="tag">Terraform</span>
+            <span class="tag">Crossplane</span>
+            <span class="tag">GitHub Actions</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category__title">Languages</h3>
+          <div class="skill-tags">
+            <span class="tag">Go</span>
+            <span class="tag">Python</span>
+            <span class="tag">React</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category__title">Systems & Cloud</h3>
+          <div class="skill-tags">
+            <span class="tag">Linux</span>
+            <span class="tag">AWS</span>
+            <span class="tag">EKS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section experience">
+    <div class="container">
+      <h2 class="section__title fade-in">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline__item fade-in">
+          <div class="timeline__marker"></div>
+          <div class="timeline__card">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">Infrastructure Engineer</h3>
+                <p class="timeline__company">1047 Games</p>
+              </div>
+              <div class="timeline__meta">
+                <span class="timeline__date">Sep 2022 — Present</span>
+                <span class="timeline__location">Remote</span>
+              </div>
+            </div>
+            <ul class="timeline__bullets">
+              <li>Built CI/CD pipelines with GitHub Actions and a custom Go-based deployment service</li>
+              <li>Deployed and managed Kubernetes clusters using Cluster API (CAPI) and ArgoCD</li>
+              <li>Implemented Infrastructure as Code with Terraform and Crossplane</li>
+              <li>Architected personal developer environment tooling for the engineering team</li>
+            </ul>
+            <div class="timeline__tags">
+              <span class="tag tag--sm">Go</span>
+              <span class="tag tag--sm">Kubernetes</span>
+              <span class="tag tag--sm">ArgoCD</span>
+              <span class="tag tag--sm">Terraform</span>
+              <span class="tag tag--sm">Crossplane</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item fade-in">
+          <div class="timeline__marker"></div>
+          <div class="timeline__card">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">Cloud Engineer — Infrastructure</h3>
+                <p class="timeline__company">Skillz</p>
+              </div>
+              <div class="timeline__meta">
+                <span class="timeline__date">Jan 2021 — Sep 2022</span>
+                <span class="timeline__location">Vancouver, BC</span>
+              </div>
+            </div>
+            <ul class="timeline__bullets">
+              <li>Maintained and improved EKS Kubernetes clusters with Istio service mesh</li>
+              <li>Developed internal tools and services to improve developer productivity</li>
+              <li>Participated in on-call rotation for infrastructure services</li>
+              <li>Managed service deployments using GitHub Actions, Helm, and ArgoCD</li>
+            </ul>
+            <div class="timeline__tags">
+              <span class="tag tag--sm">EKS</span>
+              <span class="tag tag--sm">Istio</span>
+              <span class="tag tag--sm">Helm</span>
+              <span class="tag tag--sm">GitHub Actions</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item fade-in">
+          <div class="timeline__marker"></div>
+          <div class="timeline__card">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">Site Reliability Engineer II — Shared Services</h3>
+                <p class="timeline__company">Visier Inc.</p>
+              </div>
+              <div class="timeline__meta">
+                <span class="timeline__date">Jul 2019 — Jan 2021</span>
+                <span class="timeline__location">Vancouver, BC</span>
+              </div>
+            </div>
+            <ul class="timeline__bullets">
+              <li>Maintained and improved Jenkins deployment pipelines for AWS EC2</li>
+              <li>Built automation tools for system administrative tasks</li>
+              <li>Provided on-call support for Cassandra, Postgres, HashiCorp Vault, and Consul</li>
+              <li>Configured dynamic secrets management with HashiCorp Vault</li>
+            </ul>
+            <div class="timeline__tags">
+              <span class="tag tag--sm">Jenkins</span>
+              <span class="tag tag--sm">AWS EC2</span>
+              <span class="tag tag--sm">Vault</span>
+              <span class="tag tag--sm">Consul</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section education">
+    <div class="container">
+      <h2 class="section__title fade-in">Education</h2>
+      <div class="edu__grid fade-in">
+        <div class="edu__card">
+          <div class="edu__icon">🎓</div>
+          <div>
+            <h3 class="edu__degree">Bachelor of Computer Science</h3>
+            <p class="edu__school">University of British Columbia</p>
+            <p class="edu__date">2013 — 2017 · Vancouver, BC</p>
+          </div>
+        </div>
+        <div class="edu__card">
+          <div class="edu__icon">🏛️</div>
+          <div>
+            <h3 class="edu__degree">Bachelor of Science — Civil Engineering</h3>
+            <p class="edu__school">University of Saskatchewan</p>
+            <p class="edu__date">2007 — 2012</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUBSCRIBE -->
+  <section id="subscribe" class="section subscribe">
+    <div class="container">
+      <div class="subscribe__inner fade-in">
+        <h2 class="subscribe__title">Stay in the Loop</h2>
+        <p class="subscribe__desc">
+          Subscribe to get occasional updates — posts about infrastructure, engineering, and things I find interesting.
+        </p>
+
+        <!-- BEEHIIV EMBED -->
+        <div class="beehiiv-wrapper">
+          <iframe
+            src="https://subscribe-forms.beehiiv.com/698e754e-eac2-4865-ab1b-b9671c73ace0"
+            class="beehiiv-embed"
+            data-test-id="beehiiv-embed"
+            frameborder="0"
+            scrolling="no"
+            style="width: 560px; height: 315px; margin: 0; border-radius: 0px !important; background-color: transparent; box-shadow: 0 0 #0000; max-width: 100%;"
+          ></iframe>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© 2026 Samir Marin. Built with care.</p>
+      <div class="footer__links">
+        <a href="mailto:marin.samir@gmail.com">Email</a>
+        <a href="ResumeSamirMarinEstrada.pdf" target="_blank">Resume</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
